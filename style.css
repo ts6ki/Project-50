@@ -1,0 +1,18 @@
+@font-face { font-family: OakLawn; src: url('OakLawn.ttf'); } 
+@font-face { font-family: MostlyMono; src: url('MostlyMono.ttf'); } 
+
+
+h4, ul, u{
+    font-family: MostlyMono
+}
+
+h1, h2{
+    font-family: OakLawn
+ }
+
+.origami{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
