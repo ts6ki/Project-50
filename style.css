@@ -1,18 +1,64 @@
 @font-face { font-family: OakLawn; src: url('OakLawn.ttf'); } 
 @font-face { font-family: MostlyMono; src: url('MostlyMono.ttf'); } 
 
-
-h4, ul, u{
-    font-family: MostlyMono
+.headingLine {
+    margin-top: -18px;
 }
 
-h1, h2{
-    font-family: OakLawn
- }
+.header{
+    background-color:black;
+    text-align:center
 
-.origami{
+    /*display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;*/
+}
+
+.subheader{
+    position: absolute;
+    text-align:center
+}
+
+.subheader{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+.header{
+    font-family: "OakLawn";
+}
+
+.menu{
+    font-family: "MostlyMono";
+}
+
+.subheader{
+    font-family: "OakLawn";
+}
+
+.designs{
+    font-family: "MostlyMono";
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.item {
+    border-radius: 20px;
+    background-color: #D7D7D7;
+    width: 500px;
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+body{
+    background-color: #B3A796;
+    /*color: white;*/
 }
 
